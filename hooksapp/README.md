@@ -2,14 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-## Notes from Lesson 9
-- Hooks allow us to useState inside functional components. Prior to hooks we could only use state in class components.
-- Hooks are basically special functions.
-    - useState() - use state within functional component
-    - useEffect() - run code when a component renders (or re-renders)
-    - useContext() - consume context in a functional component
-
 ## Available Scripts
 
 In the project directory, you can run:
