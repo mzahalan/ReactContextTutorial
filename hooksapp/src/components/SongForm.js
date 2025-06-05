@@ -8,12 +8,11 @@ const SongForm = ({addSong}) => {
         addSong(title);
         setTitle('');
     }
+
     return (
         <form onSubmit={handleSubmit}>
             <label>Song Name:</label>
             <input type="text" value={title} required onChange={(e)=> setTitle(e.target.value)} /><br/>
-            <label>Song Artist:</label>
-            <input type="text" required /><br/>
             <input type="submit" value="add song" />
         </form>
     )
