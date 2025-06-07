@@ -16,7 +16,7 @@ const BookForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="book-form">
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Book title"

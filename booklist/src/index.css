@@ -54,20 +54,23 @@ body {
   margin: 20px;
   text-align: center;
 }
-.book-form{
+
+form{
   padding: 20px;
 }
-.book-form input{
+input[type='text']{
   width: 100%;
   padding: 10px;
+  box-sizing: border-box;
   margin: 6px 0;
   background: #3c1f3c;
   color: #fff;
   border: 0;
-  border-radius: 4px;
 }
-.book-form input[type='submit']{
+input[type='submit']{
   margin: 10px auto;
-  background: #6d3d6d;
-  cursor: pointer;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
 }
